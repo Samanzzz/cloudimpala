@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudImpala Development Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="CloudImpala Logo" width="32" height="32">
+                <h1>CloudImpala</h1>
+            </div>
+            <div class="nav-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#business-plan">Business Plan</a></li>
+                <li><a href="#design-docs">Design Docs</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#vc-pitch">VC Pitch Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="hero">
+            <h2>CloudImpala</h2>
+            <p>A new standard in food supply chain management.</p>
+            <div class="hero-stats">
+                <div><span>$12B</span><p>US Market Potential</p></div>
+                <div><span>5x</span><p>ROI by 2029</p></div>
+                <div><span>6,000</span><p>Users by 2029</p></div>
+            </div>
+        </section>
+
+        <section id="business-plan" class="content-section">
+            <h2>Business Plan</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Executive Summary</button>
+                    <div class="accordion-content">
+                        <p><strong>CloudImpala:</strong> A SaaS platform redefining efficiency in the food supply chain.</p>
+                        <p><strong>Mission:</strong> Integrate farmers, manufacturers, and food companies with seamless automation.</p>
+                        <p><strong>Vision:</strong> Achieve a $100M valuation by 2030, leading agtech innovation.</p>
+                        <p><strong>Market Opportunity:</strong> The food supply chain software market is projected at $32.5B by 2028 (11.5% CAGR, MarketsandMarkets, 2023).</p>
+                        <p><strong>Funding:</strong> Seeking $2.5M for 33% equity at a $7.5M post-money valuation based on 2x 2026 revenue projections.</p>
+                        <p><strong>Team:</strong> Led by SaaS and agtech veterans with a proven track record.</p>
+                    </div>
+                </div>
+                <!-- <div class="accordion-item">
+                    <button class="accordion-header">Company Description</button>
+                    <div class="accordion-content">
+                        <p><strong>Legal Structure:</strong> Delaware C-Corp, incorporated February 2025.</p>
+                        <p><strong>Location:</strong> Austin, TX headquarters; remote-first operations for global reach.</p>
+                        <p><strong>Founders:</strong></p>
+                        <ul>
+                            <li>[Your Name], CEO: 12 yrs SaaS, scaled [Previous Co] to $5M ARR by 2022.</li>
+                            <li>[Co-Founder], COO: 15 yrs in food supply chain, ex-[Company] exec, optimized $50M logistics.</li>
+                        </ul>
+                        <p><strong>Advisors:</strong></p>
+                        <ul>
+                            <li>[Ag Expert], USDA Veteran: 20 yrs in ag policy, authored 2018 Farm Bill insights.</li>
+                            <li>[Tech Expert], Ex-Google PM: Led $1B cloud projects, 10 yrs tech scaling.</li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Market Analysis</button>
+                    <div class="accordion-content">
+                        <p><strong>Industry Trends:</strong></p>
+                        <ul>
+                            <li>Agtech: $22.6B (2024) to $41.2B by 2029, 12.8% CAGR (Statista, 2024).</li>
+                            <li>Supply Chain Software: $18.9B (2023) to $32.5B (2028), driven by FDA FSMA 204 compliance (MarketsandMarkets, 2023).</li>
+                            <li>Key Drivers: 80% agribusinesses adopting digital tools by 2026 (McKinsey, 2023), sustainability focus, AI integration.</li>
+                        </ul>
+                        <p><strong>Target Segments:</strong></p>
+                        <ul>
+                            <li><strong>Farmers:</strong> 250K US small/mid-sized (50-500 acres), $5B TAM—manual processes cost $2B annually (USDA, 2023).</li>
+                            <li><strong>Manufacturers:</strong> 15K mid-sized (500-2000 employees), $3B TAM—50% seek integrated solutions (IBISWorld, 2024).</li>
+                            <li><strong>Food Companies:</strong> 10K distributors (50-500 suppliers), $4B TAM—traceability demand up 30% (Food Logistics, 2024).</li>
+                        </ul>
+                        <p><strong>Competitor Analysis:</strong></p>
+                        <table>
+                            <tr><th>Name</th><th>Strength</th><th>Weakness</th><th>CloudImpala Edge</th></tr>
+                            <tr><td>FarmLogs</td><td>Farm tools</td><td>No cross-role support</td><td>Full chain integration</td></tr>
+                            <tr><td>SAP Ariba</td><td>Enterprise scale</td><td>$100K+/yr, complex</td><td>$50-$300/mo, simple</td></tr>
+                            <tr><td>TraceGains</td><td>Compliance focus</td><td>No financial automation</td><td>End-to-end solution</td></tr>
+                        </table>
+                        <p><strong>Source:</strong> Crunchbase, 2024; Company websites.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Products & Services</button>
+                    <div class="accordion-content">
+                        <p><strong>Platform Features:</strong></p>
+                        <ul>
+                            <li><strong>Inventory:</strong> Real-time tracking—crops (farmers), raw/finished goods (manufacturers), supplier stock (food companies).</li>
+                            <li><strong>Financials:</strong> Automated invoicing, payments, state taxes (e.g., CA 7.25%, TX 6.25%).</li>
+                            <li><strong>Integration:</strong> Unified dashboards, API-driven data sync.</li>
+                            <li><strong>Automation:</strong> Daily syncs, low-stock alerts (SMS/email planned).</li>
+                        </ul>
+                        <p><strong>Pricing:</strong></p>
+                        <ul>
+                            <li>Farmers: $50/mo (5 items), $100/mo (unlimited).</li>
+                            <li>Manufacturers: $200/mo (50 items, $2/additional).</li>
+                            <li>Food Companies: $300/mo + $5/supplier.</li>
+                        </ul>
+                        <p><strong>Market Validation:</strong> 70% of 100 surveyed SMEs prefer sub-$300/mo tools (Gartner, 2023).</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Financial Plan</button>
+                    <div class="accordion-content">
+                        <p><strong>Assumptions:</strong></p>
+                        <ul>
+                            <li>ARPU: $150/mo (blended, based on SaaS benchmarks, PitchBook, 2024).</li>
+                            <li>CAC: $500 (Google Ads $0.50 CPC, sales costs, Forrester, 2023).</li>
+                            <li>Churn: 5%/mo (SME SaaS avg, Bessemer, 2024).</li>
+                            <li>Growth: 100 users (2025) to 6K (2029).</li>
+                        </ul>
+                        <p><strong>5-Year Forecast:</strong></p>
+                        <table>
+                            <tr><th>Year</th><th>Revenue</th><th>COGS</th><th>OpEx</th><th>Net Profit</th><th>Users</th></tr>
+                            <tr><td>2025</td><td>$90K</td><td>$7K</td><td>$1M</td><td>-$917K</td><td>100</td></tr>
+                            <tr><td>2026</td><td>$900K</td><td>$30K</td><td>$1.2M</td><td>-$330K</td><td>500</td></tr>
+                            <tr><td>2027</td><td>$3.6M</td><td>$100K</td><td>$1.5M</td><td>$2M</td><td>2,000</td></tr>
+                            <tr><td>2028</td><td>$7.2M</td><td>$200K</td><td>$2M</td><td>$5M</td><td>4,000</td></tr>
+                            <tr><td>2029</td><td>$12M</td><td>$300K</td><td>$2.5M</td><td>$9.2M</td><td>6,000</td></tr>
+                        </table>
+                        <p><strong>Funding:</strong> $2.5M</p>
+                        <ul>
+                            <li>$500K: MVP (Next.js, Vercel, 6 mo).</li>
+                            <li>$1M: Team (10 staff, 18 mo).</li>
+                            <li>$750K: Marketing (ads, events).</li>
+                        </ul>
+                        <p><strong>Source:</strong> Internal projections, validated by SaaS benchmarks (PitchBook, 2024).</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Go-to-Market Strategy</button>
+                    <div class="accordion-content">
+                        <p><strong>Launch:</strong> Q3 2025, Midwest US (33% of US ag output, USDA, 2023).</p>
+                        <p><strong>Channels:</strong></p>
+                        <ul>
+                            <li>Digital: Google Ads ($0.50 CPC, $5K/mo), LinkedIn ($5K/mo).</li>
+                            <li>Events: World Ag Expo ($15K, 10K attendees, 2024 data).</li>
+                            <li>Partnerships: National Farmers Union (50K members, $50K deal).</li>
+                        </ul>
+                        <p><strong>Sales:</strong></p>
+                        <ul>
+                            <li>Freemium: 30-day trial, 5% conversion (HubSpot, 2023).</li>
+                            <li>Team: 3 reps ($80K/yr each).</li>
+                        </ul>
+                        <p><strong>Source:</strong> Event data, industry benchmarks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="design-docs" class="content-section">
+            <h2>Design Docs</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Inventory Management</button>
+                    <div class="accordion-content">
+                        <p><strong>Objective:</strong> Enable real-time inventory tracking across roles.</p>
+                        <p><strong>Requirements:</strong></p>
+                        <ul>
+                            <li>Farmers: CRUD for crops/livestock, status auto-update.</li>
+                            <li>Manufacturers: Raw/finished goods split, 50-item baseline.</li>
+                            <li>Food Companies: Supplier view, filter by status.</li>
+                        </ul>
+                        <p><strong>Architecture:</strong> Next.js frontend, Prisma backend, PostgreSQL.</p>
+                        <p><strong>Flow:</strong> Form submits → API validates → DB saves → UI refreshes.</p>
+                        <p><strong>Review:</strong> Functional but lacks robust error handling, auth.</p>
+                        <p><strong>Future:</strong> WebSockets, analytics dashboard, pagination.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Financial Tracking</button>
+                    <div class="accordion-content">
+                        <p><strong>Objective:</strong> Automate financial operations.</p>
+                        <p><strong>Requirements:</strong></p>
+                        <ul>
+                            <li>Input: Amount, type, state; output: Tax, total.</li>
+                            <li>Chart: Base vs. tax trends.</li>
+                        </ul>
+                        <p><strong>Architecture:</strong> Next.js, Chart.js, Prisma.</p>
+                        <p><strong>Flow:</strong> Form → API (tax calc) → DB → Chart.</p>
+                        <p><strong>Review:</strong> Accurate, needs validation, filters.</p>
+                        <p><strong>Future:</strong> Tax preview, CSV export, caching.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Automation</button>
+                    <div class="accordion-content">
+                        <p><strong>Objective:</strong> Automate daily syncs.</p>
+                        <p><strong>Requirements:</strong></p>
+                        <ul>
+                            <li>Check low stock (<10 units).</li>
+                            <li>Scalable for notifications.</li>
+                        </ul>
+                        <p><strong>Architecture:</strong> Vercel cron, Prisma.</p>
+                        <p><strong>Flow:</strong> Cron → API → Log.</p>
+                        <p><strong>Review:</strong> Works, lacks alerts, error logs.</p>
+                        <p><strong>Future:</strong> SMS/email, Sentry logging.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Dashboards</button>
+                    <div class="accordion-content">
+                        <p><strong>Objective:</strong> Role-specific oversight.</p>
+                        <p><strong>Requirements:</strong></p>
+                        <ul>
+                            <li>Farmer: Inventory, financials.</li>
+                            <li>Manufacturer: Split goods view.</li>
+                            <li>Food Company: Supplier dashboard.</li>
+                        </ul>
+                        <p><strong>Architecture:</strong> SSR Next.js.</p>
+                        <p><strong>Flow:</strong> Server fetch → Render.</p>
+                        <p><strong>Review:</strong> Clean, needs pagination.</p>
+                        <p><strong>Future:</strong> Accessibility, reports.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="content-section">
+            <h2>Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Q1 2025</h3>
+                    <p>Plan, assemble team, finalize Next.js stack.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Q2 2025</h3>
+                    <p>MVP: Inventory, financials, dashboards.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Q3 2025</h3>
+                    <p>Beta: 50 users, Midwest, freemium.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Q4 2025</h3>
+                    <p>Launch: 100 users, refine UX.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2026</h3>
+                    <p>Scale: 500 users, add notifications.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="vc-pitch" class="content-section">
+            <h2>Venture Capital Pitch Q&A</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">What problem are you solving?</button>
+                    <div class="accordion-content">
+                        <p>CloudImpala addresses inefficiencies in food supply chain management—manual processes cost farmers $2B annually (USDA, 2023), while manufacturers and food companies lose 20% efficiency due to poor integration (Food Logistics, 2024). Our solution automates inventory and financial tracking, reducing costs by up to 15%.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Why now?</button>
+                    <div class="accordion-content">
+                        <p>Rising regulatory pressure (FDA FSMA 204, effective 2026) and digital adoption (80% agribusinesses by 2026, McKinsey, 2023) create a perfect storm. SaaS penetration in agtech is only 25% (Gartner, 2024), leaving a $12B US TAM ripe for disruption.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">What’s your market size?</button>
+                    <div class="accordion-content">
+                        <p>TAM: $12B (US)—$5B (farmers), $3B (manufacturers), $4B (food companies). SAM: $3B (mid-sized SMEs, 25% of TAM). SOM: $150M by 2029 (1.25% market share, 6K users). Sources: Statista, IBISWorld, 2024.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Who’s your competition?</button>
+                    <div class="accordion-content">
+                        <p>FarmLogs (farm-only, $20M revenue), SAP Ariba (enterprise, $1B+), TraceGains (compliance, $50M). CloudImpala’s edge: affordable ($50-$300/mo vs. $100K+), all-in-one for SMEs.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">What’s your traction?</button>
+                    <div class="accordion-content">
+                        <p>Pre-launch: 50 beta users committed (Q3 2025), 20 LOIs from Midwest co-ops. Post-launch: Targeting 100 users by EOY 2025, $90K revenue.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">How will you use the funds?</button>
+                    <div class="accordion-content">
+                        <p>$2.5M: $500K (MVP, 6 mo), $1M (team, 18 mo), $750K (marketing—ads, events), $250K (ops—hosting, legal). Break-even by Q3 2027.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 CloudImpala</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
